@@ -14,8 +14,10 @@
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		<property name="hbm2ddl.auto">create</property>
 		<property name="show_sql">true</property>
-        <mapping class="com.hibernate.project.Student"/>
-        <mapping class="com.hibernate.project.Address"/>
+		<mapping class="com.hibernate.project.Student" />
+		<mapping class="com.hibernate.project.Address" />
+		<mapping class="com.reationship.mapping.Question" />
+		<mapping class="com.reationship.mapping.Answer" />
 
 	</session-factory>
 
